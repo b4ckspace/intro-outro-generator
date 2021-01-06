@@ -39,9 +39,11 @@ class Rendertask:
         if isinstance(infile, list):
             self.infile = infile[0]
             # self.audiofile = infile[1]
+            self.bgfile = infile[1]
         else:
             self.infile = infile
             self.audiofile = None
+            self.bgfile = None
         self.parameters = parameters
         self.outfile = outfile
         self.workdir = workdir
@@ -173,8 +175,15 @@ def rendertask_video(task):
             cmd += '-ar 48000 -ac 1 -f s16le -i /dev/zero -ar 48000 -ac 1 -f s16le -i /dev/zero '
         else:
             cmd += '-i {0} -i {0} '.format(task.audiofile)
+        if task.bgfile is not None:
+            cmd += '-i {0} '.format(task.bgfile)
 
-        cmd += '-map 0:0 -c:v mpeg2video -q:v 2 -aspect 16:9 '
+        if task.bgfile is None:
+            cmd += '-map 0:0 '
+        else:
+            cmd += "-filter_complex '[0:v][3:v] overlay [out]' -map '[out]' "
+
+        cmd += '-c:v mpeg2video -q:v 2 -aspect 16:9 '
 
         if task.audiofile is None:
             cmd += '-map 1:0 -map 2:0 '
