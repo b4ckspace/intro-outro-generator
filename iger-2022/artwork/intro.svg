@@ -24,15 +24,15 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.1646208"
-     inkscape:cx="683.38872"
-     inkscape:cy="832.2156"
+     inkscape:zoom="0.32696635"
+     inkscape:cx="600.97927"
+     inkscape:cy="376.1855"
      inkscape:window-width="1362"
      inkscape:window-height="721"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g13514"
+     inkscape:current-layer="layer3"
      showguides="true" />
   <defs
      id="defs2">
@@ -57,14 +57,14 @@
     <rect
        x="213.07217"
        y="513.88605"
-       width="753.09613"
-       height="260.79166"
+       width="753.0961"
+       height="301.79168"
        id="rect6380-4" />
     <rect
        x="208.38226"
        y="779.76587"
-       width="752.06451"
-       height="107.24175"
+       width="752.06455"
+       height="101.24176"
        id="rect6436-7" />
   </defs>
   <g
@@ -553,12 +553,12 @@
      inkscape:label="text"
      style="display:inline">
     <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.88976;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:2.07013;paint-order:stroke fill markers"
        id="rect15305"
        width="750"
-       height="250"
+       height="300"
        x="100"
-       y="500" />
+       y="450" />
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.88976;paint-order:stroke fill markers"
        id="rect15307"
@@ -569,20 +569,20 @@
     <text
        xml:space="preserve"
        id="title"
-       style="font-weight:bold;font-size:72px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6380-4);display:inline;fill:#fff200;fill-opacity:1"
-       transform="translate(-116.16827,-24.677732)"
+       style="font-weight:bold;font-size:72px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6380-4);display:inline;fill:#fff200;fill-opacity:1"
+       transform="translate(-116.16827,-65.677732)"
        inkscape:label="title"><tspan
          x="213.07227"
-         y="579.39773"
-         id="tspan27538">$title</tspan></text>
+         y="570.39773"
+         id="tspan1045">$title</tspan></text>
     <text
        xml:space="preserve"
        id="persons"
-       style="font-weight:bold;font-size:48px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6436-7);display:inline;fill:#ffffff;fill-opacity:1"
-       transform="translate(-110.44681,-37.007634)"
+       style="font-weight:bold;font-size:48px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6436-7);display:inline;fill:#ffffff;fill-opacity:1"
+       transform="translate(-110.44681,-31.007634)"
        inkscape:label="persons"><tspan
          x="208.38281"
-         y="823.43963"
-         id="tspan27540">$persons</tspan></text>
+         y="817.43963"
+         id="tspan1047">$persons</tspan></text>
   </g>
 </svg>
