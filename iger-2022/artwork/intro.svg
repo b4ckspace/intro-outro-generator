@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.32696635"
-     inkscape:cx="600.97927"
-     inkscape:cy="376.1855"
+     inkscape:zoom="0.44024368"
+     inkscape:cx="339.58466"
+     inkscape:cy="690.52667"
      inkscape:window-width="1362"
      inkscape:window-height="721"
      inkscape:window-x="0"
@@ -58,13 +58,13 @@
        x="213.07217"
        y="513.88605"
        width="753.0961"
-       height="301.79168"
+       height="361.79168"
        id="rect6380-4" />
     <rect
        x="208.38226"
        y="779.76587"
-       width="752.06455"
-       height="101.24176"
+       width="1002.0645"
+       height="51.241764"
        id="rect6436-7" />
   </defs>
   <g
@@ -179,15 +179,15 @@
            id="star11"
            style="stroke-width:1.33333"
            inkscape:label="star11" />
+        <path
+           fill-rule="nonzero"
+           fill="#ffffff"
+           fill-opacity="1"
+           d="m 309.22551,-73.147235 c 0,6.93229 -5.6198,12.54688 -12.5521,12.54688 -6.9271,0 -12.5468,-5.61459 -12.5468,-12.54688 0,-6.9323 5.6197,-12.54688 12.5468,-12.54688 6.9323,0 12.5521,5.61458 12.5521,12.54688"
+           id="star12"
+           style="stroke-width:1.33333"
+           inkscape:label="star12" />
       </g>
-      <path
-         fill-rule="nonzero"
-         fill="#ffffff"
-         fill-opacity="1"
-         d="m 309.22551,-73.147235 c 0,6.93229 -5.6198,12.54688 -12.5521,12.54688 -6.9271,0 -12.5468,-5.61459 -12.5468,-12.54688 0,-6.9323 5.6197,-12.54688 12.5468,-12.54688 6.9323,0 12.5521,5.61458 12.5521,12.54688"
-         id="star12"
-         style="stroke-width:1.33333"
-         inkscape:label="star12" />
     </g>
   </g>
   <g
@@ -553,36 +553,36 @@
      inkscape:label="text"
      style="display:inline">
     <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:2.07013;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:2.26771;paint-order:stroke fill markers"
        id="rect15305"
        width="750"
-       height="300"
+       height="360"
        x="100"
-       y="450" />
+       y="400" />
     <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.88976;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.54298;paint-order:stroke fill markers"
        id="rect15307"
-       width="750"
-       height="100"
+       width="1000"
+       height="50"
        x="100"
-       y="750" />
+       y="760" />
     <text
        xml:space="preserve"
        id="title"
        style="font-weight:bold;font-size:72px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6380-4);display:inline;fill:#fff200;fill-opacity:1"
-       transform="translate(-116.16827,-65.677732)"
+       transform="translate(-116.16827,-115.67773)"
        inkscape:label="title"><tspan
          x="213.07227"
          y="570.39773"
-         id="tspan1045">$title</tspan></text>
+         id="tspan2209">$title</tspan></text>
     <text
        xml:space="preserve"
        id="persons"
        style="font-weight:bold;font-size:48px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6436-7);display:inline;fill:#ffffff;fill-opacity:1"
-       transform="translate(-110.44681,-31.007634)"
+       transform="translate(-110.44681,-21.007634)"
        inkscape:label="persons"><tspan
          x="208.38281"
          y="817.43963"
-         id="tspan1047">$persons</tspan></text>
+         id="tspan2211">$persons</tspan></text>
   </g>
 </svg>
