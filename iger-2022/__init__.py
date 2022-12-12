@@ -29,24 +29,19 @@ def introFrames(args):
 def outroFrames(args):
     for i in range(fps):
         yield (
-            ('conflicting', 'style', 'opacity', easeOutQuad(i, 1, -1, fps)),
-            ('event', 'style', 'opacity', 0),
             ('fairydust', 'style', 'opacity', easeOutQuad(i, 1, -1, fps)),
-            ('license', 'style', 'opacity', 0)
+            ('license', 'style', 'opacity', 0),
         )
 
     for i in range(fps):
         yield (
-            ('conflicting', 'style', 'opacity', 0),
-            ('event', 'style', 'opacity', easeInQuad(i, 0, 1, fps)),
             ('fairydust', 'style', 'opacity', 0),
-            ('license', 'style', 'opacity', easeInQuad(i, 0, 1, fps))
+            ('license', 'style', 'opacity', easeInQuad(i, 0, 1, fps)),
         )
 
     for i in range(4*fps):
         yield (
-            ('conflicting', 'style', 'opacity', 0),
-            ('fairydust', 'style', 'opacity', 0)
+            ('fairydust', 'style', 'opacity', 0),
         )
 
 def debug():
