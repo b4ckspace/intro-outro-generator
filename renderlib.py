@@ -119,8 +119,11 @@ def cachedRenderFrame(frame, frameNr, task, cache):
         if args.only_frame:
             skip_rendering = (frameNr != args.only_frame)
 
+        if skip_rendering:
+            return
+
         # print a line for each and every frame generated
-        if debug and not skip_rendering:
+        if debug:
             print("frameNr {0:3d} => {1}".format(frameNr, frame))
 
         frame = tuple(frame)
@@ -132,8 +135,8 @@ def cachedRenderFrame(frame, frameNr, task, cache):
             shutil.copyfile("{0}/{1:04d}.png".format(framedir, cache[frame]), "{0}/{1:04d}.png".format(framedir, frameNr))
 
             return
-        elif not skip_rendering:
-            cache[frame] = frameNr
+
+        cache[frame] = frameNr
 
         svgfile = '{0}/.frames/{1:04d}.svg'.format(task.workdir, frameNr)
 
