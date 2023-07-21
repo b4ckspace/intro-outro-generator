@@ -326,6 +326,13 @@ def events(scheduleUrl, titlemap={}):
                     url = event.find('url').text.strip()
                 else:
                     url = ''
+
+                record = not (
+                    (recording := event.find('recording')) is not None
+                    and (optout := recording.find('optout')) is not None
+                    and optout.text == 'true'
+                )
+
                 # yield a tupel with the event-id, event-title and person-names
                 yield {
                     'day': day.get('index'),
@@ -336,7 +343,8 @@ def events(scheduleUrl, titlemap={}):
                     'personnames': ', '.join(personnames),
                     'room': room.attrib['name'],
                     'track': event.find('track').text,
-		            'url': url
+                    'url': url,
+                    'record': record,
                 }
 
 
