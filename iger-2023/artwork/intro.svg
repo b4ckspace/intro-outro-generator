@@ -18,8 +18,8 @@
      borderopacity="1"
      id="namedview7"
      inkscape:current-layer="layer1"
-     inkscape:cx="409.09681"
-     inkscape:cy="550.63267"
+     inkscape:cx="870.5425"
+     inkscape:cy="546.75498"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:pagecheckerboard="0"
@@ -32,7 +32,8 @@
      inkscape:window-y="22"
      inkscape:zoom="0.25788517"
      pagecolor="#505050"
-     showgrid="false" />
+     showgrid="false"
+     showguides="true" />
   <defs
      id="defs2">
     <linearGradient
@@ -779,7 +780,8 @@
        r="12"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1;paint-order:markers stroke fill" />
     <g
-       id="Uboot">
+       id="Uboot"
+       style="display:inline">
       <g
          id="g1394"
          style="stroke-width:0.530124"
@@ -1160,19 +1162,19 @@
        id="title"><tspan
          x="80"
          y="170"
-         id="tspan9239"><tspan
+         id="tspan852"><tspan
            style="font-weight:bold;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';fill:#ffffff"
-           id="tspan9237">$title</tspan></tspan></text>
+           id="tspan850">$title</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:72px;line-height:1;font-family:'Maven Pro';-inkscape-font-specification:'Maven Pro';letter-spacing:0px;word-spacing:0px"
+       style="font-size:72px;line-height:1;font-family:'Maven Pro';-inkscape-font-specification:'Maven Pro';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:1759.64"
        x="80"
-       y="404.64801"
+       y="554.64801"
        id="persons"><tspan
-         sodipodi:role="line"
-         id="tspan1226"
          x="80"
-         y="404.64801"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';fill:#ffffff">$persons</tspan></text>
+         y="554.64801"
+         id="tspan856"><tspan
+           style="font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';fill:#ffffff"
+           id="tspan854">$persons</tspan></tspan></text>
   </g>
 </svg>
